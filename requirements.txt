@@ -1,0 +1,5 @@
+jupyter
+notebook
+nbconvert
+
+git+https://github.com/eliben/pyelftools.git
