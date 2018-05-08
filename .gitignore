@@ -1,3 +1,14 @@
+##
+**/.ipynb_checkpoints/
+Untitled*.ipynb
+bin/
+lib/
+lib64
+pip-selfcheck.json
+pyvenv.cfg
+share/
+
+
 # Prerequisites
 *.d
 
