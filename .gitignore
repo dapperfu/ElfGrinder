@@ -1,6 +1,8 @@
-##
+## Jupyter Notebooks
 **/.ipynb_checkpoints/
 Untitled*.ipynb
+
+## Python Virtual Environment
 bin/
 lib/
 lib64
@@ -8,6 +10,8 @@ pip-selfcheck.json
 pyvenv.cfg
 share/
 
+#
+*.swp
 
 # Prerequisites
 *.d

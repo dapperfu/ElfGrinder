@@ -1,6 +1,12 @@
+#
 jupyter
 notebook
 nbconvert
+jinja2
+coding
 
-git+https://github.com/eliben/pyelftools.git
+#
 git+https://github.com/jed-frey/get_files.git
+
+#
+

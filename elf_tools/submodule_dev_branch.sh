@@ -8,5 +8,6 @@ do
 	cd $path
 	git checkout -b $branch
 	git push --set-upstream origin $branch
+	git fetch
 	cd $cwd
 done
