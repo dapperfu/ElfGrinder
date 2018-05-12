@@ -6,6 +6,9 @@
 null:
 	@$(error No Default Target).
 
+.PHONY: env
+env: env.python env.arduino
+
 # Toolchain Includes
 include .mk_inc/env.mk
 
