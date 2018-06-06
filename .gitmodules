@@ -10,3 +10,6 @@
 [submodule "elf_tools/pyelftools"]
 	path = elf_tools/pyelftools
 	url = https://github.com/jed-frey/pyelftools.git
+[submodule "Analysis/python_SystemID"]
+	path = Analysis/python_SystemID
+	url = https://github.com/jed-frey/python_SystemID.git
