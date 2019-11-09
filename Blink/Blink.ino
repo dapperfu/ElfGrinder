@@ -1,6 +1,4 @@
-
-#pragma section FLASH_Parameter
-volatile const uint8_t pin = 13;
+volatile uint8_t pin = 13;
 
 void setup() {
   // initialize digital pin 13 as an output.
@@ -12,8 +10,8 @@ void setup() {
 void loop() {
   Serial.print("Pin: ");
   Serial.println(pin);
-  digitalWrite(pin, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(1000);              // wait for a second
-  digitalWrite(pin, LOW);    // turn the LED off by making the voltage LOW
-  delay(1000);              // wait for a second
+  digitalWrite(pin, HIGH); // turn the LED on (HIGH is the voltage level)
+  delay(1000);             // wait for a second
+  digitalWrite(pin, LOW);  // turn the LED off by making the voltage LOW
+  delay(1000);             // wait for a second
 }
